@@ -1,0 +1,64 @@
+# chatbot
+Python programming
+
+x=input("Enter your name")
+y=10
+print("  Hii  " + x )
+
+
+print(''' 
+ I Devanshu Saxena 
+welcomes you in our KBC game
+and wish you best of luck 
+     ''')
+print('''
+1= yes
+2= no
+''')
+a=int(input("Are you ready?"))
+if a== 2 :
+	print("You can take your time and then answer " + x)
+else :
+	print(" Great " + x + " lets move further \n your first question is: " )
+b=int(input("Which one of the following river flows between Vindhyan and Satpura ranges?\n1 - Narmada \n2 - Mahanadi\n3 - Son\n4 - Netravati"))
+if b== 1:
+	y+=10
+	print(''' 
+	
+Your score is ''')
+	print(y)
+else:
+	print ('''
+	
+Your score is ''')
+	print(y)
+	
+c=int(input("The Central Rice Research Station is situated in? \n1 - Chennai\n2 - Cuttack\n3 - Bangalore\n4 - Quilon"))
+if c== 2:
+	y+=10
+	print(''' 
+	
+Your score is ''')
+	print(y)
+else:
+	print ('''
+	
+Your score is ''')
+	print(y)
+d=int(input("Who among the following wrote Sanskrit grammar?\n1 - Kalidasa\n 2 - Charak\n3 - Panini\n4 - Aryabhatt"))
+if d== 3:
+	y+=10
+	print(''' 
+	
+Your score is ''')
+	print(y)
+else:
+	print ('''
+	
+Your score is ''')
+	print(y)
+
+if y >=30:
+	print("You are really intelligent " + x)
+else :
+	print ("You need more practice " + x)
